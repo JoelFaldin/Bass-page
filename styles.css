@@ -5,12 +5,8 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #a6a6a6;
-}
-
 header img {
-    height: 100px;
+    height: 85px;
     width: auto;
 }
 
@@ -21,13 +17,25 @@ header img {
     align-items: center;
     height: 100px;
     padding: 5px 10%;
+    border-bottom: 1px solid #000;
 }
 
 .nav-link {
-    list-style-type: none;
     float: left;
     padding: 0 20px;
     font-size: larger;
+    border: 1px solid;
+}
+
+.header li {
+    list-style-type: none;
+    float: left;
+    padding: 0 10px;
+}
+
+.header a {
+    color: #000;
+    text-decoration: none;
 }
 
 #big-title {
@@ -37,8 +45,29 @@ header img {
     padding: 30px;
 }
 
+#bass-image {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
 #bass {
     text-align: center;
-    max-width: 1500px;
+    width: 70%;
+    margin-left: 15%;
+    padding: 10px 0;
+}
 
+#bass-title {
+    padding: 20px 0;
+}
+
+.div-text1 {
+    display: block;
+    text-align: left;
+}
+
+#finger-pick-debate {
+    color: blue;
 }
