@@ -45,14 +45,25 @@ header img {
     padding: 30px;
 }
 
+#form {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#email {
+    margin-bottom: 2rem;
+}
+
 #bass-image {
     height: 200px;
     width: auto;
     display: block;
     margin: 0 auto 0 auto;
+    padding-bottom: 20px;
 }
 
-#bass {
+#bass,
+#video {
     text-align: center;
     width: 70%;
     margin-left: 15%;
@@ -70,4 +81,9 @@ header img {
 
 #finger-pick-debate {
     color: blue;
+}
+
+#bass-title2,
+#bass-video {
+    padding-bottom: 20px;
 }
