@@ -18,6 +18,8 @@ header img {
     height: 100px;
     padding: 5px 10%;
     border-bottom: 1px solid #000;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-link {
@@ -42,7 +44,7 @@ header img {
     font-size: xx-large;
     text-decoration: double;
     text-align: center;
-    padding: 30px;
+    padding: 160px 0 20px 0;
 }
 
 #form {
@@ -101,7 +103,7 @@ header img {
 
 .product {
     width: 100%;
-    height: 400px;
+    height: 450px;
     border: 1px solid;
     margin: 10px;
 }
@@ -111,12 +113,31 @@ header img {
     width: 100%;
     font-size: 25px;
     font-weight: bold;
-    height: 60px;
+    height: 90px;
     padding-top: 15px;
 }
 
-#basses1 {
+#basses1,
+#basses2,
+#basses3 {
     height: 200px;
     width: auto;
     margin-bottom: 30px;
+}
+
+@media (max-width: 960px) {
+
+    .top {
+        font-size: 15px;
+        height: 60px;
+        padding-top: 10px;
+    }
+
+    #basses1,
+    #basses2,
+    #basses3 {
+        height: 150px;
+        width: auto;
+        margin-bottom: 30px;
+    }
 }
